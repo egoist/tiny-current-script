@@ -1,6 +1,6 @@
 # tiny-current-script
 
-[![NPM version](https://badgen.net/npm/v/tiny-current-script)](https://npmjs.com/package/tiny-current-script) [![NPM downloads](https://badgen.net/npm/dm/tiny-current-script)](https://npmjs.com/package/tiny-current-script) [![CircleCI](https://badgen.net/circleci/github/egoist/tiny-current-script/master)](https://circleci.com/gh/egoist/tiny-current-script/tree/master) [![donate](https://badgen.net/badge/support%20me/donate/ff69b4)](https://github.com/sposors/egoist) [![chat](https://badgen.net/badge/chat%20on/discord/7289DA)](https://chat.egoist.sh)
+[![NPM version](https://badgen.net/npm/v/tiny-current-script)](https://npmjs.com/package/tiny-current-script) [![NPM downloads](https://badgen.net/npm/dm/tiny-current-script)](https://npmjs.com/package/tiny-current-script) [![Node.js CI](https://github.com/egoist/tiny-current-script/workflows/Node.js%20CI/badge.svg)](https://github.com/egoist/tiny-current-script/actions) [![donate](https://badgen.net/badge/support%20me/donate/ff69b4)](https://github.com/sposors/egoist) [![chat](https://badgen.net/badge/chat%20on/discord/7289DA)](https://chat.egoist.sh)
 
 A tiny ponyfill (266 bytes) for `document.currentScript` which adds support for IE 11.
 
