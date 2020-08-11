@@ -1,0 +1,42 @@
+{
+  "name": "tiny-current-script",
+  "version": "0.0.0",
+  "description": "Tiny ponyfill to document.currentScript",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "url": "egoist/tiny-current-script",
+    "type": "git"
+  },
+  "author": "egoist<0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@egoist/prettier-config": "^0.1.0",
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.0",
+    "prettier": "^2.0.5",
+    "tsup": "^3.4.2",
+    "typescript": "^3.9.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
